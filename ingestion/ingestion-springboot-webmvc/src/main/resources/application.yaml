@@ -1,9 +1,0 @@
-spring:
-  application:
-    name: ingestion-springboot-webmvc
-  main:
-    banner-mode: OFF
-
-logging:
-  pattern:
-    console: "%d{ISO8601} %highlight(%-5level) [%blue(%t)] %yellow(%C{1.}): %msg%n%throwable"
